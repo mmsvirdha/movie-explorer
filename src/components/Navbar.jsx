@@ -13,7 +13,6 @@ import {
   Favorite,
   LightMode,
   Logout,
-  Movie as MovieIcon,
 } from "@mui/icons-material";
 import { Link, useNavigate } from "react-router-dom";
 import { useApp } from "../context/AppContext";

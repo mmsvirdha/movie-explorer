@@ -12,7 +12,6 @@ import {
 } from "@mui/material";
 import {
   Lock,
-  Movie as MovieIcon,
   Visibility,
   VisibilityOff,
 } from "@mui/icons-material";
