@@ -6,7 +6,7 @@ A responsive movie discovery web app built with React and the TMDb API. Users ca
 
 ## 🌐 Links
 
-- **Live demo:** YOUR_VERCEL_URL_HERE
+- **Live demo:** https://movie-explorer-one-kohl.vercel.app
 - **GitHub repository:** https://github.com/mmsvirdha/movie-explorer
 
 **Demo login** (client-side demo, see [Notes](#-notes)):
