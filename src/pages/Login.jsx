@@ -130,19 +130,17 @@ export default function Login() {
           {/* Logo */}
           <Stack direction="row" alignItems="center" spacing={1.5} mb={3}>
             <Box
-              sx={{
-                width: 44,
-                height: 44,
-                borderRadius: 2.5,
-                display: "grid",
-                placeItems: "center",
-                background:
-                  "linear-gradient(135deg,#7c3aed 0%,#f43f5e 100%)",
-                boxShadow: "0 10px 30px -10px rgba(124,58,237,0.7)",
-              }}
-            >
-              <MovieIcon sx={{ color: "#fff", fontSize: 24 }} />
-            </Box>
+  component="img"
+  src="/logo.png"
+  alt="Movie Explorer"
+  sx={{
+    width: 44,
+    height: 44,
+    borderRadius: 2.5,
+    objectFit: "cover",
+    boxShadow: "0 10px 30px -10px rgba(124,58,237,0.7)",
+  }}
+/>
             <Box>
               <Typography
                 variant="h6"

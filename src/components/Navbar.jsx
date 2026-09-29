@@ -38,19 +38,18 @@ export default function Navbar() {
             flexGrow: { xs: 1, md: 0 },
           }}
         >
-          <Box
-            sx={{
-              width: 34,
-              height: 34,
-              borderRadius: 2,
-              display: "grid",
-              placeItems: "center",
-              background: "linear-gradient(135deg,#7c3aed 0%,#f43f5e 100%)",
-              boxShadow: "0 8px 20px -8px rgba(124,58,237,0.7)",
-            }}
-          >
-            <MovieIcon sx={{ color: "#fff", fontSize: 20 }} />
-          </Box>
+         <Box
+  component="img"
+  src="/logo.png"
+  alt="Movie Explorer"
+  sx={{
+    width: 34,
+    height: 34,
+    borderRadius: 2,
+    objectFit: "cover",
+    boxShadow: "0 8px 20px -8px rgba(124,58,237,0.7)",
+  }}
+/>
           <Typography
             variant="h6"
             sx={{
