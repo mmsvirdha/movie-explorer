@@ -2,7 +2,6 @@ import {
   Box,
   Card,
   CardActionArea,
-  Chip,
   IconButton,
   Stack,
   Typography,
