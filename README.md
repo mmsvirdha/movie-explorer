@@ -217,4 +217,10 @@ Movie data and images are provided by [The Movie Database (TMDb)](https://www.th
 - GitHub: https://github.com/mmsvirdha
 - Portfolio: https://virdhamusawwirportfolio.netlify.app
 
-Built as a technical assessment for Loons Lab.
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+Built as part of a technical assessment for **Loons Lab**.
